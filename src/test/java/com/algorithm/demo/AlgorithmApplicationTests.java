@@ -35,4 +35,38 @@ class AlgorithmApplicationTests {
         System.err.println(Arrays.toString(array));
     }
 
+    @Test
+    void ShellSort(){
+        int[] array={49,38,65,97,76,13,27,49,78,34,12,64,1};
+        System.err.println("排序之前：");
+        for(int i=0;i<array.length;i++){
+            System.err.print(array[i]+" ");
+        }
+        //希尔排序
+        int length = array.length;
+        while (true){
+            length /= 2;//增量每次减半
+            for (int i = 0; i < length; i++) {
+                for (int j = i + length; j < array.length; j += length) {//这个循环里其实就是一个插入排序
+                    int temp = array[j];
+                    int k = j - length;
+                    while (k >= 0 && array[k] > temp) {
+                        array[k + length] = array[k];
+                        k -= length;
+                    }
+                    array[k + length] = temp;
+                }
+            }
+            if (length == 1)
+                break;
+        }
+
+        System.err.println();
+        System.err.println("排序之后：");
+        for(int i=0;i<array.length;i++){
+            System.err.print(array[i]+" ");
+        }
+    }
+
+
 }

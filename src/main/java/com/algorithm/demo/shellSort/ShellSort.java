@@ -22,7 +22,6 @@ public class ShellSort {
         for(int i=0;i<array.length;i++){
             System.out.print(array[i]+" ");
         }
-
         //希尔排序
         int length = array.length;
         while (true){

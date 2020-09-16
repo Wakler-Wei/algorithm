@@ -25,6 +25,13 @@ public class Choice {
             swap(arr, i, minIndex);
         }
     }
+
+    /**
+     * 经过一轮循环，就可以找出第一个最小值的索引，然后把最小值放到i的位置
+     * @param arr
+     * @param i
+     * @param j
+     */
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];

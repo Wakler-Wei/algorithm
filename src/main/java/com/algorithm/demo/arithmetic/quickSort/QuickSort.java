@@ -1,4 +1,4 @@
-package com.algorithm.demo.quickSort;
+package com.algorithm.demo.arithmetic.quickSort;
 
 /**
  * @description: 快速排序

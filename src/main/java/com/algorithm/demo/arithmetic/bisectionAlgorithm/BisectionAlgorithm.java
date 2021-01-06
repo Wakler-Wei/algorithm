@@ -1,4 +1,4 @@
-package com.algorithm.demo.bisectionAlgorithm;
+package com.algorithm.demo.arithmetic.bisectionAlgorithm;
 
 /**
  * @description: 二分算法

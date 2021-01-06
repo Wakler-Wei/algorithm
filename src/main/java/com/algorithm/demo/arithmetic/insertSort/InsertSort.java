@@ -1,4 +1,4 @@
-package com.algorithm.demo.insertSort;
+package com.algorithm.demo.arithmetic.insertSort;
 
 /**
  * @description: 插入排序

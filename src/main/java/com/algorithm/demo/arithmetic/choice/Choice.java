@@ -1,4 +1,4 @@
-package com.algorithm.demo.choice;
+package com.algorithm.demo.arithmetic.choice;
 
 /**
  *

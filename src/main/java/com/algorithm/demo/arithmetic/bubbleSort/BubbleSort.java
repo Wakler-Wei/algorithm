@@ -1,4 +1,4 @@
-package com.algorithm.demo.bubbleSort;
+package com.algorithm.demo.arithmetic.bubbleSort;
 
 /**
  * @description: 冒泡排序

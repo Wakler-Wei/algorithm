@@ -7,10 +7,21 @@ package com.algorithm.demo.design.builder;
  */
 public class App {
     public static void main(String[] args) {
-        User d = User.builder()
+
+
+        User user = User.builder()
                 .name("foo")
                 .password("pAss12345")
                 .age(25)
                 .build();
+
+        //@Builder 注解实现建造者模式
+        Consumer build = Consumer.builder()
+                .name("foo")
+                .password("pAss12345")
+                .age(25)
+                .build();
+
+
     }
 }

@@ -31,6 +31,11 @@
             <version>1.18.12</version><!--版本号自己选一个就行-->
         </dependency>
 
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.5.9</version>
+        </dependency>
 
         <!--<dependency>
             <groupId>log4j</groupId>
